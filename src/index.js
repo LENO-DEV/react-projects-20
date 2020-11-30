@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './10-grocery-bud/setup/index.css';
+import App from './10-grocery-bud/setup/App';
 
 ReactDOM.render(
   <React.StrictMode>

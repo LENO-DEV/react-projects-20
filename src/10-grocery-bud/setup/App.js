@@ -70,7 +70,7 @@ function App() {
   return <section className='section-center'>
     <form className='grocery-form' onSubmit={handleSubmit}>
       {alert.show && <Alert {...alert} removeAlert={setAlert} list={list} />}
-      <h3>grocery bud</h3>
+      <h3>TODO</h3>
       {EmptyList()}
       <div className='form-control'>
         <input
