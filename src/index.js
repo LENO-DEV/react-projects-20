@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './12-sidebar-modal/index.css';
-import App from './12-sidebar-modal/App';
+import './13-stripe-submenus/index.css';
+import App from './13-stripe-submenus/App';
 
 ReactDOM.render(
   <React.StrictMode>
