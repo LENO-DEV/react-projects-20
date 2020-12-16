@@ -1,7 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect, useContext } from 'react'
+import { AppContext } from './context';
 
 const Submenu = () => {
-  return <h2>submenu component</h2>
+  const { isSubmenuOpen } = useContext(AppContext);
+
+  
+  return <aside className={`${(isSubmenuOpen) ?
+    'submenu show' : 'shubmenu'}`}>
+    
+  </aside>
 }
 
-export default Submenu
+export default Submenu;
